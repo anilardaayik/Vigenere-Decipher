@@ -73,12 +73,10 @@ def frequency_calculator(letterList):
     return result
 
 
-#textt = "Fwg atax: P’tx oh li hvabawl jwgvmjs, nw fw tfiapqz lziym, rqgv uuwfpxj wpbk jxlnlz fptf noqe wgw. Qoifmowl P bdg mg xv qe ntlyk ba bnjh vcf ekghn izl fq blidb eayz jgzbwx sqwm lgglbtqgy xlip. Pho fvvs ktf C smf ur ecul ywndxlz uv mzcz xxivw? Qomdmowl P bgzg, oblzqdxj C swas, B kyl btm udujs dcbfm vn yg eazl, pqzx, oblzq Q’ow mwmzb lg ghvk gxslz, emamwx apqu, wwmazagxv nomy bhlustk. Ghm qvv’f nbfx h vqe vgoubdg, pgh’a nuvw shvbtmk kbvzq. Baam jqfg pafs ixetqm wcdanw svc. Kwn’df dixs mzy ziym llllmfa, zjid wxl bf nom eifw hlqspuglowall, loyv sztq cu btmlw mhuq phmmla. Kwn’df htiirk yul gx bf noqe kbls. Kwz’b agjl naz mzcuoe mekydpqzx: lblzq’a gg moqb nhj svc, fpxjy’z va zhsx. Uwi basn fwg’dx ouzbql rgoy tunx zyym, uv mzcz ayied wvzzmk, qib’dq lxknywkmw an ldqzroblzq qg lbl eazev."
 text = input().lower().strip()
 wordList = text.split()
 letterList = []
 characterList = [] 
-
 
 for word in wordList:
     for letter in word:
@@ -93,7 +91,7 @@ for word in wordList:
     
 
 freqlist = {}
-#II limited the keylength from above as if the keylength gets bigger it will become
+#Limited the keylength from above as if the keylength gets bigger it will become
 #almost impossible to apply frequency analysis
 for keylength in range(2, 20):
     moduledLetterList = divisor(letterList, keylength, 0)
@@ -194,36 +192,3 @@ for word in wordList:
 
 print(reelkey)
 print(reeltext)
-            
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    
-    
-    
